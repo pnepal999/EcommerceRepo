@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Application Test Automation Test Suite">
+
+    <listeners>
+          <listener class-name="com.qa.ExtentReportListener.ExtentRepoterNG"/>
+   </listeners>
+
+    <test name="Ecommerce application test">
+       <classes>
+              <class name="com.ecom.qa.testcases.HomePageTest"></class>
+              <class name="com.ecom.qa.testcases.AddToCardPageTest"></class>
+              <class name="com.ecom.qa.testcases.AddressPageTest"></class>
+              <class name="com.ecom.qa.testcases.ConfirmedOrderPageTest"></class>
+              <class name="com.ecom.qa.testcases.LoginPageTest"></class>
+              <class name="com.ecom.qa.testcases.MyAccountPageTest"></class>
+              <class name="com.ecom.qa.testcases.OrderConformationPageTest"></class>
+              <class name="com.ecom.qa.testcases.PaymentPageTest"></class>
+              <class name="com.ecom.qa.testcases.ProceedToCheckOutPageTest"></class>
+              <class name="com.ecom.qa.testcases.ShippingPageTest"></class>
+              <class name="com.ecom.qa.testcases.SummeryPageTest"></class>
+          
+       </classes>
+</test>
+</suite>
