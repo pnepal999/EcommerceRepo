@@ -18,6 +18,10 @@ public class AddressPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
+	public void serarchitems(){
+		
+	}
+	
 	public boolean verifyAddressTextPage() {
 		 return DeliveryAddresstext.isDisplayed();
 		//return DeliveryAddresstext.getText();
